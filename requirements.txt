@@ -1,0 +1,26 @@
+jax[cuda12]
+accelerate
+einops
+pillow
+gym[mujoco_py,classic_control]==0.23.0
+git+https://github.com/Farama-Foundation/d4rl@master#egg=d4rl
+tqdm
+wandb
+
+ml-collections==0.1.0
+flax
+optax
+tensorflow_probability
+
+mujoco==2.2.1
+mujoco-py==2.1.2.14
+sortedcontainers
+pyrallis
+gin-config
+h5py
+dm-control
+dm-env
+dm-tree
+dmcgym @ git+https://github.com/conglu1997/dmcgym.git@812905790dd87a448c9544a0beccb8b05ea2a850
+matplotlib
+numpy<2.0
