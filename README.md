@@ -47,6 +47,27 @@ Example usage (mbpo is turned on by default):
 
 `python train_parallel.py --env_name cheetah-run --num_seeds 6 --max_steps 500000`
 
+The following table reports the approximate running times on an NVIDIA RTX 4500 Ada gpu for running 6 seeds per task from the DMC15-500k and Gym6-300k with a replay ratio of 20.
+
+| **Gym Tasks**        | **Running Time (hrs:min)** |
+|----------------------|----------------------------|
+| InvertedPendulum-v2  | 4:34                       |
+| Hopper-v3            | 4:53                       |
+| HalfCheetah-v3       | 5:00                       |
+| Walker2d-v3          | 5:09                       |
+| Ant-v2               | 8:34                       |
+| Humanoid-v3          | 16:58                      |
+
+| **DMC Tasks**        | **Running Time (hrs:min)** |
+|----------------------|----------------------------|
+| hopper-hop           | 11:44                      |
+| hopper-stand         | 11:47                      |
+| humanoid-walk        | 19:41                      |
+| humanoid-stand       | 19:42                      |
+| quadruped-run        | 19:48                      |
+| quadruped-walk       | 20:35                      |
+
+
 
 ## Checkpointing
 Agent and buffer are logged into `FLAGS.save_dir`. By default, training starts from scratch. If a checkpoint exists in FLAGS.save_dir, it will be automatically loaded.
