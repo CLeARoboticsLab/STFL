@@ -76,13 +76,13 @@ Agent and buffer are logged into `FLAGS.save_dir`. By default, training starts f
 If you find this repository useful, feel free to cite our paper using the following bibtex.
 
 ```
-@misc{barkley2024stealing,
-  title        = {Stealing That Free Lunch: Exposing the Limits of Dyna‑Style Reinforcement Learning},
-  author       = {Brett Barkley and David Fridovich‑Keil},
-  howpublished = {arXiv preprint arXiv:2412.14312},
-  note         = {Submitted December 2024},
-  year         = {2024},
-  url          = {https://arxiv.org/abs/2412.14312}
+@inproceedings{barkley2025stealing,
+  title     = {Stealing That Free Lunch: Exposing the Limits of Dyna‑Style Reinforcement Learning},
+  author    = {Barkley, Brett and Fridovich‑Keil, David},
+  booktitle = {Proceedings of the 42nd International Conference on Machine Learning (ICML)},
+  year      = {2025},
+  note      = {To appear},
+  url       = {https://arxiv.org/abs/2412.14312}
 }
 ```
 
